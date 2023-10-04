@@ -59,3 +59,19 @@ a {
   padding: 0.2rem;
   font-weight: 300;
 }
+
+.shopping-bar {
+  background-color: #43a080;
+  padding: 18px 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: var(--secondary-color);
+}
+
+.icon {
+  font-size: 1.2rem;
+}
