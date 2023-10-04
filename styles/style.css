@@ -1,0 +1,30 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --main-font-family: "Roboto", sans-serif;
+}
+
+html {
+  font-family: var(--main-font-family);
+}
+
+body,
+h1,
+h2 {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin-top: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
