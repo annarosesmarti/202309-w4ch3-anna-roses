@@ -6,6 +6,8 @@
 
 :root {
   --main-font-family: "Roboto", sans-serif;
+  --main-color: #000;
+  --secondary-color: #fff;
 }
 
 html {
@@ -22,9 +24,38 @@ ul {
   list-style: none;
   margin-top: 0;
   padding: 0;
+  margin-right: 15px;
 }
 
 a {
   text-decoration: none;
   color: inherit;
+}
+
+.main-menu-container {
+  background-color: #289988;
+  color: var(--secondary-color);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 0.3rem 0;
+}
+
+.website-title {
+  padding: 15px;
+  font-size: 1.25rem;
+}
+
+.menu-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.menu-item {
+  font-size: 0.68rem;
+  padding: 0.2rem;
+  font-weight: 300;
 }
